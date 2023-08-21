@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css" />
+  <!-- lottieFiles animation -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Varela+Round&display=swap"
+    rel="stylesheet" />
+
+  <title>Portfolio</title>
+</head>
+
+  <body>
+    <section class="space">
+      <div class="star star1"></div>
+    </section>
+
+    <!-- * header -->
+    <section class="header">
+       <nav class="navbar navbar-expand-lg navbar-dark bg-body-tertiary-transparent "> <!--! if you want the navbar to move along with you add this "fixed-top" -->
+        <div class="container">
+          <a class="navbar-brand" href="#">Taha</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#about-part">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#skills-part">Skills</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" href="#contact-part">Contact</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- *main-feature -->
+    <section class="main-feature">
+      <div class="container col-xxl-8 px-4 py-5 text-light">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+              <lottie-player src="https://lottie.host/d0452102-c2fa-49ee-8c82-950326b62567/ohGKKsFVjO.json"
+              speed="1" style="width: 300px; height: 300px" direction="1" mode="normal" loop autoplay></lottie-player>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis-white lh-1 mb-3" >
+              Welcome to my Portfolio!
+            </h1>
+            <p class="lead">
+              Hello, I'm Taha, a dedicated Web Developer. 
+              On this website, I have compiled all my skills and experiences 
+              to offer you a detailed presentation of my abilities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <hr class="seperator">
+      
+    <!-- *about section -->
+    <section class="about" id="about-part">
+      <div class="container col-xxl-8 px-4 py-5 text-light">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            
+            <lottie-player src="https://lottie.host/7d15aeba-b9d5-4f7e-8f94-55a88a272ed3/pqIqq9Iqg9.json" speed="1" style="width: 500px; height: 500px" direction="1" mode="normal" loop autoplay></lottie-player>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis-light lh-1 mb-3">ABOUT ME</h1>
+            <p class="lead">
+              I'm a fresh KAU graduate with a passion for web development, AI, and cybersecurity. 
+              I explore AI's potential to transform industries and prioritize cybersecurity to protect digital assets. 
+              Continuously learning and eager to create innovative solutions merging my skills and interests.
+            </p>
+            
+          </div>
+        </div>
+        
+      </div>  
+    </section>
+    <hr class="seperator">
+    
+    <!-- *skills -->
+    <section class="skills" id="skills-part">
+      <div class="container px-4 py-5 " id="icon-grid">
+        <h2 class="pb-2 b me-2 text-light tec" style="font-size:40px; ">TECHNICAL SKILLS</h2>
+    
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+          <div class="col d-flex align-items-start ">
+            
+            <img  src="./images/java.png" height="25px" class="skill-svg" alt="java icon" title="java"> 
+            <p class="skill-name">Java</p>
+              
+            <!-- <div class="mo" style="background-color: white; height: 80px; width: 80px; border-radius: 50%; position: absolute; top: 148px; left: 135px;" ></div> -->
+            
+           
+          </div>
+          <div class="col d-flex align-items-start ">
+            
+            <img  src="./images/html-5.png" height="25px" class="skill-svg" alt="HTML icon" title="HTML"> 
+            <p class="skill-name">HTML</p>
+              
+            <!-- <div class="mo" style="background-color: white; height: 80px; width: 80px; border-radius: 50%; position: absolute; top: 148px; left: 135px;" ></div> -->
+            
+           
+          </div>
+          <div class="col d-flex align-items-start">
+           
+            <!-- <div style="background-color: white; height: 80px; width: 80px; border-radius: 50%; position: absolute; top: 148px; left: 459px;" ></div> -->
+            <img src="./images/css-3.png" height="25px" class="skill-svg" alt="Css icon" title="CSS"> 
+            <p class="skill-name">CSS</p>
+            
+          </div>
+          <div class="col d-flex align-items-start">
+            
+            <!-- <div style="background-color: white; height: 80px; width: 80px; border-radius: 50%; position: absolute; top: 150px; left: 783px;" ></div> -->
+            <img src="./images/php.png" height="25px" class="skill-svg" alt="php icon" title="PHP"> 
+            <p class="skill-name">PHP</p>
+            
+          </div>
+          <div class="col d-flex align-items-start">
+            
+            <!-- <div style="background-color: white; height: 80px; width: 80px; border-radius: 50%; position: absolute; top: 150px; right: 333px;" ></div> -->
+            <img src="./images/node.js.png"  height="25px" class="skill-svg" alt="Node.js icon" title="Node.js"> 
+            <p class="skill-name">Node.js</p>
+            
+          </div>
+          <div class="col d-flex align-items-start">
+            
+            <!-- <div style="background-color: white; height: 80px; width: 80px; border-radius: 50%; position: absolute; top: 297px; right: 333px;" ></div> -->
+            <img src="./images/yolo.png" height="25px" class="skill-svg" alt="yolo icon" title="yolo"> 
+            <p class="skill-name">YOLOv7</p>
+            
+          </div>
+          <div class="col d-flex align-items-start">
+            
+            <!-- <div style="background-color: white; height: 80px; width: 80px; border-radius: 50%; position: absolute; top: 294px; left: 787px;" ></div> -->
+            <img src="./images/javascript.png" height="25px" class="skill-svg" alt="JavaScript icon" title="JavaScript"> 
+            <p class="skill-name">JavaScript</p>
+            
+          </div>
+          <div class="col d-flex align-items-start">
+            
+            <!-- <div style="background-color: white; height: 80px; width: 80px; border-radius: 50%; position: absolute; top: 294px; left: 455px;" ></div> -->
+            <img src="./images/sql.png" height="25px" class="skill-svg" alt="SQL icon" title="SQL"> 
+            <p class="skill-name">SQL</p>
+            
+          </div>
+          <div class="col d-flex align-items-start">
+            
+            <!-- <div style="background-color: white; height: 80px; width: 80px; border-radius: 50%; position: absolute; top: 294px; left: 135px;" ></div> -->
+            <img src="./images/python.png" height="25px" class="skill-svg" alt="python icon" title="Python"> 
+            <p class="skill-name">Python</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <hr class="seperator">
+    
+    <!-- *contact me  -->
+
+    <section class="contact" id="contact-part">
+      <div class="px-4 pt-5 my-5 text-center">
+        <h1 class="display-4 fw-bold text-light mb-5 ">contact information</h1>
+        <div class="col-lg-6 mx-auto">
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            
+            <a href="mailto:taha.alhasani0@gmail.com" style="background-color: brown; color: aliceblue;" class="btn btn-lg "> <img src="./images/gmail.png" class="svg-contact" alt="">Email</a>
+            
+            <button type="button" class="btn btn-primary btn-lg " onclick=" window.open('https://www.linkedin.com/in/taha-alhasani/')" > <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-linkedin svg-contact" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+            </svg>LinkedIn</button>
+
+            <button type="button" class="btn btn-dark btn-lg " onclick=" window.open('https://github.com/TA-XD')"> <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"; class="bi bi-github svg-contact" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>Github</button>
+            
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- *java script (bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+  </body>
+
+</html>
